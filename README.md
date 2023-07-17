@@ -1,23 +1,23 @@
-# Getting Started with Create React App
+# 创建 React 应用程序
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+这个项目是用[Create React App](https://github.com/facebook/create-react-app)启动的。
 
-## Available Scripts
+## 可用的脚本
 
-In the project directory, you can run:
+在 project 目录下，可以运行:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+在开发模式下运行应用程序.\
+打开 [http://localhost:3000](http://localhost:3000) 在浏览器中查看.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+当您进行更改时，页面将重新加载.\
+您还可以在控制台中看到任何 lint 错误。
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+以交互式监视模式启动测试运行器.\
+有关详细信息，请参阅有关运行[测试](https://facebook.github.io/create-react-app/docs/running-tests)的部分。
 
 ### `npm run build`
 
