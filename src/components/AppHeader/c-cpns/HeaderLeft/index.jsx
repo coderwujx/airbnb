@@ -3,7 +3,7 @@ import { LeftWrapper } from './style'
 
 const HeaderLeft = memo(() => {
   return (
-    <LeftWrapper></LeftWrapper>
+    <LeftWrapper>headerleft</LeftWrapper>
   )
 })
 

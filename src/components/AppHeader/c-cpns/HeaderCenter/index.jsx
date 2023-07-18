@@ -4,7 +4,7 @@ import { CenterWrapper } from './style'
 const HeaderCenter = memo(() => {
   return (
     <CenterWrapper>
-
+      headercenter
     </CenterWrapper>
   )
 })

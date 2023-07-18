@@ -3,7 +3,7 @@ import { RightWrapper } from './style'
 
 const HeaderRight = memo(() => {
   return (
-    <RightWrapper></RightWrapper>
+    <RightWrapper>headerright</RightWrapper>
   )
 })
 
