@@ -1,0 +1,15 @@
+import styled from 'styled-components'
+
+export const HeaderWrapper = styled.div`
+  .left{
+
+  }
+
+  .center{
+
+  }
+
+  .right{
+    
+  }
+`
