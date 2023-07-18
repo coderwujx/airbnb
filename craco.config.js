@@ -14,5 +14,5 @@ module.exports = {
       'components': resolve('src/components'),
       'utils': resolve('src/utils'),
     }
-  }
+  },
 }
