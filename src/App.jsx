@@ -1,9 +1,16 @@
 import React, { memo } from 'react'
+import { useRoutes } from 'react-router-dom'
+import routes from './router'
 
 const App = memo((props) => {
   return (
-    <div>
-      App
+    <div className='app'>
+      <div className='header'>header</div>
+      <div className='page'>
+        {/* 配置路由 */}
+        {useRoutes(routes)}
+      </div>
+      <div className='footer'>footer</div>
     </div>
   )
 })
