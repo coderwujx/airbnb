@@ -5,6 +5,7 @@ import { HomeWrapper } from './style'
 import HomeBanner from './c-cpns/HomeBanner'
 import { fetchHomeDataAction } from '@/store/modules/home'
 import SectionHeader from '@/components/SectionHeader'
+import RoomItem from '@/components/RoomItem'
 
 
 const Home = memo(() => {
@@ -27,6 +28,13 @@ const Home = memo(() => {
       <div className='content'>
         <div className='good-price'>
           <SectionHeader title={goodPriceInfo.title} />
+          <ul className='room-list'>
+            {
+              goodPriceInfo?.list?.slice(0, 8)?.map(item => {
+                return <RoomItem itemData={item} key={item.id} />
+              })
+            }
+          </ul>
         </div>
       </div>
     </HomeWrapper>
